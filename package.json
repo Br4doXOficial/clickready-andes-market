@@ -1,0 +1,12 @@
+{
+  "name": "clickready-evaluacion-scrum",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "description": "Prototipo local del caso académico Andes Market; sin ERP ni pagos reales.",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "coverage": "node --experimental-test-coverage --test-coverage-include=src/core.js --test-coverage-lines=70 --test-coverage-branches=70 --test-coverage-functions=70 --test tests/*.test.js"
+  },
+  "engines": {"node": ">=20"}
+}
